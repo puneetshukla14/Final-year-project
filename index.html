@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <button class="login-btn" onclick="location.href='./login/index.html'">Login</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-container">
+    <div class="dropdown-container">
+      <select name="dropdown1" id="dropdown1">
+        <option value="" disabled selected>Courses</option>
+        <option value="option1">B.tech</option>
+        <option value="option2">BBA</option>
+        <option value="option3">BCA</option>
+      </select>
+
+      <select name="dropdown2" id="dropdown2">
+        <option value="" disabled selected>Specialization</option>
+        <option value="option1">AI/ML</option>
+        <option value="option2">Pharmacy</option>
+        <option value="option3">Aueronotical</option>
+      </select>
+
+      <!-- Search Box with Button -->
+      <div class="search-container">
+        <button class="search-btn">Search</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
